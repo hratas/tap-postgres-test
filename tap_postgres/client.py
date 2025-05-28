@@ -370,7 +370,7 @@ class PostgresLogBasedStream(SQLStream):
         #        "format-version": 1,
         #        "include-transaction": False,
         #        "add-tables": self.fully_qualified_name,
-                "proto-version": 1,
+                "proto_version": 1,
             },
         )
 
