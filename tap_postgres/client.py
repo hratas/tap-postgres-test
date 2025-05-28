@@ -367,7 +367,7 @@ class PostgresLogBasedStream(SQLStream):
             start_lsn=start_lsn,
             status_interval=status_interval,
             options={
-                "format-version": 2,
+                # "format-version": 2,
                 "include-transaction": False,
                 "add-tables": self.fully_qualified_name,
             },
