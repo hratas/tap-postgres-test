@@ -371,6 +371,7 @@ class PostgresLogBasedStream(SQLStream):
         #        "include-transaction": False,
         #        "add-tables": self.fully_qualified_name,
                 "proto_version": 1,
+                "publication_names": "airbyte_gated_pub",
             },
         )
 
